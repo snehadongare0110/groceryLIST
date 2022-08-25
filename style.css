@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+body{
+    min-height: 100vh;
+}
+
+.heading{
+    padding: 15px;
+    background-color: rgb(81, 169, 163);
+    color: white;
+    font-size: 1.3rem;
+}
+
+.label{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    font-size: 1.5rem;
+    margin-right: 8rem;
+}
+
+#horizontal-line{
+    width: 80rem;
+    height: 1px;
+    background-color: black;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.emp-list{
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+}
+
+td{
+    text-align: left;
+    padding: 8px 15px;
+}
+
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+}
+
+#gender{
+    width: 100%;
+    padding: 10px;
+}
+input[type="submit"] {
+    width: 100px;
+    height: 38px;
+}
